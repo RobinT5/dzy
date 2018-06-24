@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.artical{
+	color:#393939;
+	display: inline-block;
+	height: 600px;
+	width: 500px;
+	text-align: left;
+	margin: 0 auto;
+	vertical-align: middle;
+	border: 1px solid black;
+	background-image: url(../picture/bp1.jpg);
+	padding: 5px;
+}
+
+body{
+	text-align: center;
+}

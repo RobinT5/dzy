@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登陆</title>
+</head>
+<style type="text/css">
+button a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background-image: url('pic/welcome.jpeg');
+	background-size: 1366px 768px;
+	background-repeat: no-repeat;
+}
+
+#adress {
+	text-align: center;
+	margin-top: 50px;
+	color: lightgray;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+	left: 38%;
+}
+
+input {
+	margin: 5px 0;
+}
+
+form {
+	width:400px;
+	margin-left: 500px;
+	background-color: red;
+	text-align: center;
+	vertical-align: middle;
+	height: 500px;
+}
+</style>
+<body>
+	<form action="/dzy/login">
+		账号： <input type="text" name="passname"
+			style="margin-top: 20px; width: 100px;"> <br> 密码： <input
+			type="password" name="password"
+			style="margin-top: 20px; width: 100px;"> <br> <input
+			type="submit" value="登录" style="margin-top: 20px;">
+		<button>
+			<a href="register.html">注册</a>
+		</button>
+	</form>
+
+</body>
+</html>
